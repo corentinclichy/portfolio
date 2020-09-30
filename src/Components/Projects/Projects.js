@@ -4,8 +4,6 @@ import Netflix from "../../Assets/img/netflixClone (1).png";
 import Libellule from "../../Assets/img/LibelluleCafe_restaurant_Res.png";
 import GuessTheNumber from "../../Assets/img/GuessTheNumber.png";
 import Surmesure from "../../Assets/img/Surmesure.png";
-import Tinder from "../../Assets/img/[CITYPNG.COM]New Modern Tinder Logo - 1200x800.png";
-import Amazon from "../../Assets/img/580b57fcd9996e24bc43c518.png";
 import MouseScroll from "../MouseScroll/MouseScroll";
 
 function Projects() {
@@ -17,12 +15,18 @@ function Projects() {
           href="https://netflix-clone-cbac3.web.app/"
           target="_blank"
           id="grayscale"
+          rel="noopener noreferrer"
         >
           <img className="img-hover-zoom--blur" src={Netflix} alt="" />
           <h4>Netflix Clone</h4>
           <p>React.js / HTML / CSS</p>
         </a>
-        <a href="https://libellulecafe.fr/" target="_blank" id="grayscale">
+        <a
+          href="https://libellulecafe.fr/"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="grayscale"
+        >
           <img className="img-hover-zoom--blur" src={Libellule} alt="" />
           <h4 className="mobile_font">Libellule - Freelance Work</h4>
           <p>WP / HTML / CSS</p>
@@ -31,6 +35,7 @@ function Projects() {
           href="https://corentinclichy.github.io/GuessTheNumber/"
           target="_blank"
           id="grayscale"
+          rel="noopener noreferrer"
         >
           <img className="img-hover-zoom--blur" src={GuessTheNumber} alt="" />
           <h4>Guess The Number Game</h4>

@@ -18,14 +18,12 @@ function Contact() {
       <div className="contact__infos">
         <p>
           I'm always <strong>open to collaborate on impactful project</strong>{" "}
-          with any kind of individuals in order to{" "}
-          <strong>
-            solve real business-problems, continue to learn new skills and
-            develop my interpersonnal skills.
-          </strong>
+          to solve <strong>real business-problems</strong>, continue to{" "}
+          <strong>learn new skills</strong> and develop my{" "}
+          <strong>interpersonnal skills</strong>
         </p>
         <p className="no_mobile">
-          If that all sounds good to you, then we should{" "}
+          If that sounds good to you, then we should{" "}
           <strong>have a chat about how we can work together</strong>
         </p>
         <a href="https://wa.me/33616343000" className="chat shake">
