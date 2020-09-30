@@ -6,11 +6,12 @@ import GuessTheNumber from "../../Assets/img/GuessTheNumber.png";
 import Surmesure from "../../Assets/img/Surmesure.png";
 import Tinder from "../../Assets/img/[CITYPNG.COM]New Modern Tinder Logo - 1200x800.png";
 import Amazon from "../../Assets/img/580b57fcd9996e24bc43c518.png";
+import MouseScroll from "../MouseScroll/MouseScroll";
 
 function Projects() {
   return (
     <div className="projects section">
-      <h1>PROJECTS</h1>
+      <h1 className="title">PROJECTS</h1>
       <div className="projects__grid">
         <a
           href="https://netflix-clone-cbac3.web.app/"
@@ -23,8 +24,8 @@ function Projects() {
         </a>
         <a href="https://libellulecafe.fr/" target="_blank" id="grayscale">
           <img className="img-hover-zoom--blur" src={Libellule} alt="" />
-          <h4>Libellule Café - Freelance Work</h4>
-          <p>Wordpress / HTML / CSS</p>
+          <h4 className="mobile_font">Libellule - Freelance Work</h4>
+          <p>WP / HTML / CSS</p>
         </a>
         <a
           href="https://corentinclichy.github.io/GuessTheNumber/"
@@ -37,10 +38,11 @@ function Projects() {
         </a>
         <a href="http://www.surmesure-lyon.fr/" target="_blank" id="grayscale">
           <img className="img-hover-zoom--blur" src={Surmesure} alt="" />
-          <h4>Surmesure Communication - Freelance Work</h4>
-          <p>Wordpress / HTML / CSS</p>
+          <h4>Surmesure - Freelance Work</h4>
+          <p>WP / HTML / CSS</p>
         </a>
       </div>
+      <MouseScroll />
     </div>
   );
 }

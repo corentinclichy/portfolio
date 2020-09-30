@@ -12,7 +12,7 @@ function About() {
   return (
     <div className="about section">
       <div className="about__infos">
-        <h1>ABOUT</h1>
+        <h1 className="title">ABOUT</h1>
         <p>
           I am{" "}
           <strong>
@@ -20,11 +20,20 @@ function About() {
           </strong>
           .
           <br />
-          <br />I <strong>develop tailored web application</strong> for all size
-          company, <strong>as freelance</strong>.
+          <br />I am the co-founder of <strong>Surmesure Communication</strong>.
           <br />
-          <br /> I am also following online courses to continue learning and get
-          strong skills on the <strong>MERN stack</strong>.
+          We help <strong>
+            all size company to plan, build and monitor
+          </strong>{" "}
+          their communication strategy, by{" "}
+          <strong>building modern website</strong> to build strong brand
+          awareness and growth.
+          <br />
+          <br />I also invest time on <strong>freelance project</strong>.
+          <br />
+          <br /> I am also following <strong>online courses</strong> to improve
+          my developer skills, focused mainly on the <strong>MERN Stack</strong>
+          .
         </p>
         <div className="photo__stack">
           <img src={Stack_Reactjs} alt="" className="react" />

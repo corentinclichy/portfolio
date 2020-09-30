@@ -12,22 +12,24 @@ function Hero() {
         </div>
         <div className="hero__welcome__infos">
           <h1 className="hero__title">
-            Hello
+            Hello{" "}
             <span
               role="img"
               aria-label="call me hands"
               aria-labelledby="call me hands"
             >
               🤙
-            </span>
-            , I'm <strong>Corentin Clichy</strong>
+            </span>{" "}
           </h1>
-          <h1 className="hero__title">I'm a full-stack web developer</h1>
+          <h1 className="hero__title">
+            I'm <strong>Corentin Clichy</strong>
+          </h1>
+          <h1 className="hero__title">Full-stack web developer</h1>
           <h4 className="shake">
             <span role="img" aria-label="rocket" aria-labelledby="rocket">
               🚀{" "}
             </span>
-            Available for project
+            Available for projects
           </h4>
         </div>
       </div>

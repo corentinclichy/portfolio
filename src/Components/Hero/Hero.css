@@ -1,13 +1,4 @@
 .hero {
-  background-color: #fafafa;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -39,7 +30,7 @@
 
 .hero .hero__welcome .hero__welcome__infos h4 {
   color: #18b118;
-  padding-left: 3%;
+  padding-left: 0%;
   padding-top: 7%;
   font-size: 2em;
 }
@@ -55,5 +46,59 @@
 
 .hero__mouseScroll {
   margin-top: 13%;
+}
+
+@media screen and (max-width: 768px) {
+  body .hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .hero .hero__welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+  }
+  body .hero .hero__welcome .hero__welcome__infos {
+    margin-top: 10%;
+  }
+  body .hero .hero__welcome .hero__welcome__infos .hero__title {
+    font-family: "Now Bold";
+    text-align: center;
+    font-size: 1.8em;
+    width: 100%;
+    padding: 0% 2%;
+  }
+  body .hero .hero__welcome .hero__welcome__infos strong {
+    color: #2222a5;
+  }
+  body .hero .hero__welcome .hero__welcome__infos h4 {
+    color: #18b118;
+    padding-left: 0%;
+    padding-top: 7%;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  body .hero .hero__welcome .hero__welcome__photo {
+    margin-top: 6%;
+    padding-right: 0;
+  }
+  body .hero .hero__welcome .hero__welcome__photo img {
+    width: 200px;
+    position: center;
+    padding-right: 0;
+  }
+  body .hero__mouseScroll {
+    margin-top: 20%;
+  }
 }
 /*# sourceMappingURL=Hero.css.map */

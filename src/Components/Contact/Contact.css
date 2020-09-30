@@ -6,8 +6,8 @@
 
 .contact .contact__infos p {
   padding-top: 1%;
-  padding-left: 3%;
   padding-right: 3%;
+  padding-left: 3%;
   font-size: 1.5em;
   text-align: justify;
 }
@@ -16,17 +16,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: #18b118;
+  font-family: "Now Medium";
   padding-top: 3%;
   padding-left: 3%;
   text-decoration: none;
-  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.4s;
-  transition: 0.3s ease-in-out, -webkit-transform 0.4s;
-  transition: 0.3s ease-in-out, transform 0.4s;
-  transition: 0.3s ease-in-out, transform 0.4s, -webkit-transform 0.4s;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .contact .contact__infos .chat .talk {
@@ -39,24 +41,38 @@
 
 .contact .contact__infos .chat:hover {
   color: #107910;
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
 }
 
 .contact .contact__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 2%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.contact .contact__social a {
+.contact .contact__social p {
+  padding-left: 3%;
+  margin-bottom: 20px;
+  color: rgba(128, 128, 128, 0.738);
+}
+
+.contact .socials__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 3%;
+}
+
+.contact .socials__icons a {
   text-decoration: none;
 }
 
-.contact .contact__social a .icon {
-  padding: 30px;
-  font-size: 4em;
+.contact .socials__icons a .icon {
+  padding-right: 30px;
+  font-size: 3em;
   color: #696767;
   -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.4s;
   transition: 0.3s ease-in-out, -webkit-transform 0.4s;
@@ -64,7 +80,7 @@
   transition: 0.3s ease-in-out, transform 0.4s, -webkit-transform 0.4s;
 }
 
-.contact .contact__social a .icon:hover {
+.contact .socials__icons a .icon:hover {
   color: #2222a5;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -72,7 +88,104 @@
 
 .contact .footer p {
   text-align: center;
-  color: gray;
+  color: rgba(128, 128, 128, 0.696);
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .contact .contact__infos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact .contact__infos p {
+    padding-top: 1em;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  .contact .contact__infos .no_mobile {
+    display: none;
+  }
+  .contact .contact__infos .chat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    color: #18b118;
+    padding-top: 10%;
+    padding-left: 1%;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.4s;
+    transition: 0.3s ease-in-out, -webkit-transform 0.4s;
+    transition: 0.3s ease-in-out, transform 0.4s;
+    transition: 0.3s ease-in-out, transform 0.4s, -webkit-transform 0.4s;
+  }
+  .contact .contact__infos .chat .talk {
+    padding: 0;
+  }
+  .contact .contact__infos .chat .arrow {
+    font-size: 3em;
+  }
+  .contact .contact__infos .chat:hover {
+    color: #18b118;
+  }
+  .contact .contact__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 80px;
+  }
+  .contact .social__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .social__icons a {
+    text-decoration: none;
+  }
+  .contact .social__icons a .icon {
+    padding: 20px;
+    font-size: 2em;
+    color: #2222a5;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .contact .footer {
+    margin-top: 40px;
+  }
+  .contact .footer p {
+    text-align: center;
+    color: rgba(128, 128, 128, 0.696);
+  }
 }
 /*# sourceMappingURL=Contact.css.map */

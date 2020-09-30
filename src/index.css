@@ -48,5 +48,11 @@ body {
   font-family: "Now Light", "Roboto", "Sans-serif";
   color: #040627;
   overflow: hidden;
+  overflow-x: hidden;
+  background-color: #fafafa;
+}
+
+.app::-webkit-scrollbar {
+  display: none;
 }
 /*# sourceMappingURL=index.css.map */
