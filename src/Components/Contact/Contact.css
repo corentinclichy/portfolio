@@ -1,0 +1,78 @@
+.contact {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .contact__infos p {
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.contact .contact__infos .chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #18b118;
+  padding-top: 3%;
+  padding-left: 3%;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.4s;
+  transition: 0.3s ease-in-out, -webkit-transform 0.4s;
+  transition: 0.3s ease-in-out, transform 0.4s;
+  transition: 0.3s ease-in-out, transform 0.4s, -webkit-transform 0.4s;
+}
+
+.contact .contact__infos .chat .talk {
+  padding: 0;
+}
+
+.contact .contact__infos .chat .arrow {
+  font-size: 3em;
+}
+
+.contact .contact__infos .chat:hover {
+  color: #107910;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.contact .contact__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2%;
+}
+
+.contact .contact__social a {
+  text-decoration: none;
+}
+
+.contact .contact__social a .icon {
+  padding: 30px;
+  font-size: 4em;
+  color: #696767;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.4s;
+  transition: 0.3s ease-in-out, -webkit-transform 0.4s;
+  transition: 0.3s ease-in-out, transform 0.4s;
+  transition: 0.3s ease-in-out, transform 0.4s, -webkit-transform 0.4s;
+}
+
+.contact .contact__social a .icon:hover {
+  color: #2222a5;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.contact .footer p {
+  text-align: center;
+  color: gray;
+  padding-bottom: 30px;
+}
+/*# sourceMappingURL=Contact.css.map */

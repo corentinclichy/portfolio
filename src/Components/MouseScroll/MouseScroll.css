@@ -1,0 +1,81 @@
+/*
+Animated Mouse Scroll Button (v1.0)
+By Sam Jakob Mearns (https://www.samjakob.com/)
+*/
+.mouse-container {
+  display: block;
+  text-align: center;
+}
+
+.mouse-container .mouse-outer {
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  width: 20px;
+  border: 2px solid rgba(4, 6, 39, 0.696);
+  border-radius: 40px;
+  -webkit-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.mouse-container .mouse-outer .mouse-wheel {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -1.66667px;
+  height: 10px;
+  width: 4px;
+  background-color: rgba(4, 6, 39, 0.696);
+  border-radius: 4px;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  -webkit-animation: scroll 1.4s infinite linear;
+  animation: scroll 1.4s infinite linear;
+}
+
+.mouse-container .mouse-outer:hover {
+  border-color: #01020e;
+}
+
+.mouse-container .mouse-outer:hover .mouse-wheel {
+  background-color: #01020e;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: scaleY(0.5) translateY(0);
+            transform: scaleY(0.5) translateY(0);
+  }
+  20% {
+    -webkit-transform: scaleY(1) translateY(5px);
+            transform: scaleY(1) translateY(5px);
+  }
+  60% {
+    -webkit-transform: scaleY(0.5) translateY(15px);
+            transform: scaleY(0.5) translateY(15px);
+  }
+  to {
+    -webkit-transform: scaleY(0.5) translateY(0);
+            transform: scaleY(0.5) translateY(0);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: scaleY(0.5) translateY(0);
+            transform: scaleY(0.5) translateY(0);
+  }
+  20% {
+    -webkit-transform: scaleY(1) translateY(5px);
+            transform: scaleY(1) translateY(5px);
+  }
+  60% {
+    -webkit-transform: scaleY(0.5) translateY(15px);
+            transform: scaleY(0.5) translateY(15px);
+  }
+  to {
+    -webkit-transform: scaleY(0.5) translateY(0);
+            transform: scaleY(0.5) translateY(0);
+  }
+}
+/*# sourceMappingURL=MouseScroll.css.map */

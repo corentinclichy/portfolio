@@ -1,0 +1,40 @@
+.hero {
+  background-color: rgb(250, 250, 250);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .hero__welcome {
+    display: flex;
+    align-items: center;
+    .hero__welcome__infos {
+      margin-top: 15%;
+      .hero__title {
+        font-family: "Now Bold";
+        text-align: left;
+        font-size: 4em;
+        width: 100%;
+      }
+      strong {
+        color: rgb(34, 34, 165);
+      }
+      h4 {
+        color: rgb(24, 177, 24);
+        padding-left: 3%;
+        padding-top: 7%;
+        font-size: 2em;
+      }
+    }
+    .hero__welcome__photo {
+      margin-top: 6%;
+      img {
+        width: 300px;
+        padding-right: 10%;
+      }
+    }
+  }
+}
+
+.hero__mouseScroll {
+  margin-top: 13%;
+}

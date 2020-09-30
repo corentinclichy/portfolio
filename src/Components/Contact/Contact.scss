@@ -1,0 +1,55 @@
+.contact {
+  justify-content: space-between;
+  .contact__infos {
+    p {
+      padding-top: 1%;
+      padding-left: 3%;
+      padding-right: 3%;
+      font-size: 1.5em;
+      text-align: justify;
+    }
+    .chat {
+      display: flex;
+      align-items: center;
+      color: rgb(24, 177, 24);
+      padding-top: 3%;
+      padding-left: 3%;
+      text-decoration: none;
+      transition: 0.3s ease-in-out, transform 0.4s;
+      .talk {
+        padding: 0;
+      }
+      .arrow {
+        font-size: 3em;
+      }
+    }
+    .chat:hover {
+      color: rgb(16, 121, 16);
+      transform: scale(1.01);
+    }
+  }
+  .contact__social {
+    display: flex;
+    padding-left: 2%;
+    a {
+      text-decoration: none;
+      .icon {
+        padding: 30px;
+        font-size: 4em;
+        color: rgb(105, 103, 103);
+        transition: 0.3s ease-in-out, transform 0.4s;
+      }
+      .icon:hover {
+        color: rgba(34, 34, 165, 1);
+        transform: scale(1.05);
+      }
+    }
+  }
+  .footer {
+    p {
+      text-align: center;
+      color: gray;
+      padding-bottom: 30px;
+    }
+  }
+}

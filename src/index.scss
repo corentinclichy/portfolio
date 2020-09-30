@@ -6,7 +6,8 @@
   font-family: "Now Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Now Regular"), url("./Assets/Fonts/Now-Regular.woff") format("woff");
+  src: local("Now Regular"),
+    url("./Assets/Fonts/Now-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -46,7 +47,6 @@
 
 body {
   font-family: "Now Light", "Roboto", "Sans-serif";
-  color: #040627;
+  color: rgb(4, 6, 39);
   overflow: hidden;
 }
-/*# sourceMappingURL=index.css.map */
