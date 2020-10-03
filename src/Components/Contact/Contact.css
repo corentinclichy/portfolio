@@ -16,9 +16,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 270px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -32,7 +30,7 @@
 }
 
 .contact .contact__infos .chat .talk {
-  padding: 0;
+  padding-left: 0.8;
 }
 
 .contact .contact__infos .chat .arrow {
@@ -133,7 +131,7 @@
     text-align: center;
     color: #18b118;
     padding-top: 20%;
-    padding-left: 1%;
+    padding-left: 3%;
     text-decoration: none;
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.4s;
     transition: 0.3s ease-in-out, -webkit-transform 0.4s;
@@ -141,7 +139,7 @@
     transition: 0.3s ease-in-out, transform 0.4s, -webkit-transform 0.4s;
   }
   .contact .contact__infos .chat .talk {
-    padding: 0;
+    padding-left: 0.3em;
   }
   .contact .contact__infos .chat .arrow {
     font-size: 3em;

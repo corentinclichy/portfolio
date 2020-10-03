@@ -3,21 +3,20 @@
   flex-direction: row;
   h1 {
     padding-left: 0;
-    padding-bottom: 0.6em;
+    padding-bottom: 0.5em;
   }
   .about__infos {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     p {
       padding-right: 6%;
       padding-left: 6%;
-      font-size: 1.5em;
+      font-size: 1.3em;
       text-align: justify;
     }
     .photo__stack {
-      margin-top: 2.5em;
+      margin-top: 2em;
       padding-right: 50.696px;
       padding-left: 50.696px;
       display: flex;
@@ -43,8 +42,11 @@
         object-fit: contain;
       }
     }
-    .hero__mouseScroll {
-      margin-bottom: 30%;
+
+    .mouseScroll {
+      padding-bottom: 100px;
+      background-color: hotpink;
+      width: 100%;
     }
   }
   .about__image {

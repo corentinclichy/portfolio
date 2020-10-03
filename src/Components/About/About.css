@@ -10,7 +10,7 @@
 
 .about h1 {
   padding-left: 0;
-  padding-bottom: 0.6em;
+  padding-bottom: 0.5em;
 }
 
 .about .about__infos {
@@ -22,20 +22,17 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .about .about__infos p {
   padding-right: 6%;
   padding-left: 6%;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: justify;
 }
 
 .about .about__infos .photo__stack {
-  margin-top: 2.5em;
+  margin-top: 2em;
   padding-right: 50.696px;
   padding-left: 50.696px;
   display: -webkit-box;
@@ -72,8 +69,10 @@
      object-fit: contain;
 }
 
-.about .about__infos .hero__mouseScroll {
-  margin-bottom: 30%;
+.about .about__infos .mouseScroll {
+  padding-bottom: 100px;
+  background-color: hotpink;
+  width: 100%;
 }
 
 .about .about__image {

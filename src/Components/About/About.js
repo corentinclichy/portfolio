@@ -41,7 +41,9 @@ function About() {
           <img src={Stack_nodejs} alt="" className="nodejs" />
           <img src={Stack_wordpress} alt="" className="wordpress" />
         </div>
-        <MouseScroll className="mouseScrollAbout" />
+        <div className="mouseScrool">
+          <MouseScroll className="mouseScrollAbout" />
+        </div>
       </div>
       <div className="about__image"></div>
     </div>

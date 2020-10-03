@@ -32,7 +32,7 @@ function Contact() {
         </a>
       </div>
       <div className="contact__social">
-        <p>and connect on socials...</p>
+        <p>And connect...</p>
         <div className="socials__icons">
           <a href="https://www.instagram.com/corentin.dev/" target="_blank">
             <InstagramIcon className="instagram icon" />
